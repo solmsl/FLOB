@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+/* BASE */
+@import "base";
+
+/* GRID SYSTEM */
+@import "./grid/mixins";
+
+/* COMPONENTS */
+@import "./components/input";
+@import "./components/nav";
+@import "./components/buttons";
+@import "./components/letrero";
+@import "./components/footer";
+
+/* PAGES */
+@import "./pages/compras";
+@import "./pages/quienessomos"
+=======
 
 //Componentes
 @import "./components/corraousel";
@@ -7,3 +25,4 @@
 @import "./components/copy";
 @import "./components/skelleton"; 
 @import "./components/letrero";
+>>>>>>> 8039a7a (Add files via upload)

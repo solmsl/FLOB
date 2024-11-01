@@ -1,4 +1,19 @@
+<<<<<<< HEAD
+$fondo: rgb(44, 17, 87);
+
+.btn{
+    background: $fondo;
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+        background:  rgb(67, 0, 250);
+        border: none;
+    }
+=======
 .btn{
     padding: 1rem 1rem;
     background-color: violet;
+>>>>>>> 8039a7a (Add files via upload)
 }
