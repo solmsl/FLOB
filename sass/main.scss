@@ -1,28 +1,22 @@
-<<<<<<< HEAD
 /* BASE */
-@import "base";
+@use "base";
 
 /* GRID SYSTEM */
-@import "./grid/mixins";
+@use "grid/mixins";
 
 /* COMPONENTS */
-@import "./components/input";
-@import "./components/nav";
-@import "./components/buttons";
-@import "./components/letrero";
-@import "./components/footer";
+@use "components/barra";
+@use "components/buttons";
+@use "components/copy";
+@use "components/corraousel";
+@use "components/fonts";
+@use "components/footer";
+@use "components/formulario";
+@use "components/input";
+@use "components/letrero";
+@use "components/nav";
+@use "components/skelleton"; 
 
 /* PAGES */
-@import "./pages/compras";
-@import "./pages/quienessomos"
-=======
-
-//Componentes
-@import "./components/corraousel";
-@import "./components/formulario";
-@import "./components/buttons";
-@import "./components/barra";
-@import "./components/copy";
-@import "./components/skelleton"; 
-@import "./components/letrero";
->>>>>>> 8039a7a (Add files via upload)
+@use "pages/compras";
+@use "pages/quienessomos";

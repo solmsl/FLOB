@@ -1,17 +1,15 @@
+@use '../base' as base;
+
 $fondo: rgb(44, 17, 87);
 
 .btn{
-    background: $fondo;
+    background: base.$fondo;
     color: white;
     text-decoration: none;
 
     &:hover{
         color: white;
-        background:  rgb(67, 0, 250);
-        border: 1px solid white;
+        background:  rgb(23, 6, 71);
+        border: 1px solid rgb(189, 189, 189);
     }
 }  
-.btn{
-    padding: 1rem 1rem;
-    background-color: violet;
-}

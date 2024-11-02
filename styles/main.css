@@ -30,6 +30,80 @@ body {
 * LARGE (LG)
 */
 /* COMPONENTS */
+.cuadrado {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 31px;
+  background: linear-gradient(180deg, rgb(196, 34, 141) 0%, rgb(61, 58, 200) 100%);
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* BASE */
+.btn {
+  background: rgb(13, 7, 27);
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  color: white;
+  background: rgb(23, 6, 71);
+  border: 1px solid rgb(189, 189, 189);
+}
+
+footer {
+  margin: 0 auto;
+  background-color: white;
+  color: rgb(141, 140, 140);
+  border-radius: 5px;
+  padding: 2px;
+  width: fit-content;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.data1 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "font";
+  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "diseño mejor";
+  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
+}
+footer {
+  color: rgb(209, 203, 203);
+  font-size: 16px;
+  text-align: center;
+}
+
+.formulario {
+  width: 600px;
+  height: 360px;
+  background-color: black;
+}
+.formulario__input {
+  width: 100%;
+  background-color: black;
+}
+@media screen and (min-width: 1200px) {
+  .formulario__input {
+    width: 50%;
+    background-color: aqua;
+  }
+}
+.formulario__btn {
+  background-color: pink;
+}
+
 @keyframes twinkle {
   0%, 100% {
     opacity: 0.5;
@@ -288,14 +362,22 @@ body {
     transform: translate(-50%, -50%) rotate(450deg);
   }
 }
-@font-face {
-  font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+aside {
+  background: linear-gradient(to right, rgba(23, 107, 146, 0.37), rgba(98, 0, 163, 0.342), rgba(221, 138, 196, 0.267));
 }
-@font-face {
+aside #letrero {
+  margin-top: 70px;
   font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
+  font-size: 60px;
+  color: white;
+  text-align: center;
 }
+
+#letrero {
+  background-color: rgb(153, 150, 150);
+  text-align: center;
+}
+
 .nav-link {
   position: relative;
   color: white;
@@ -322,51 +404,19 @@ body {
   visibility: visible;
 }
 
-.btn {
-  background: rgb(44, 17, 87);
-  color: white;
-  text-decoration: none;
-}
-.btn:hover {
-  color: white;
-  background: rgb(67, 0, 250);
-  border: none;
+html {
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
-}
-aside {
-  background: linear-gradient(to right, rgba(23, 107, 146, 0.37), rgba(98, 0, 163, 0.342), rgba(221, 138, 196, 0.267));
-}
-aside #letrero {
-  margin-top: 70px;
-  font-family: "diseño mejor";
-  font-size: 60px;
-  color: white;
-  text-align: center;
+*, *::after, *::before {
+  box-sizing: inherit;
 }
 
-footer {
-  color: rgb(209, 203, 203);
-  font-size: 16px;
-  text-align: center;
+body {
+  margin: 0;
 }
 
 /* PAGES */
-@font-face {
-  font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
-}
 #card-catalogo {
   margin: 90px;
   background: linear-gradient(to right, rgb(111, 238, 255), rgb(103, 21, 150), rgb(255, 123, 255));
@@ -404,14 +454,6 @@ footer {
   width: 5%;
 }
 
-@font-face {
-  font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
-}
 h1 {
   color: white;
   font-family: "font";

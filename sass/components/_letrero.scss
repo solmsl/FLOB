@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-@import "./fonts";
+@use "fonts";
 
 aside{
     background: linear-gradient(to right,  rgba(23, 107, 146, 0.37), rgba(98, 0, 163, 0.342), rgba(221, 138, 196, 0.267) );
@@ -11,10 +10,8 @@ aside{
         color: white;;
         text-align: center;
     }
-
-=======
+}
 #letrero{
     background-color: rgb(153, 150, 150);
     text-align: center;
->>>>>>> 8039a7a (Add files via upload)
 }
