@@ -8,23 +8,22 @@
     <title>FLOB</title>
 </head>
 <body> 
-    <!-- <div class="container"></div> -->
     <header class="d-flex flex-row px-5 pt-2 justify-content-between">
+        <!-- logo -->
         <div class="banner">
             <img src="./imagenes/logotipo_flob_con-letra.png" style="height: 100px;"> 
         </div>
-        <div class="formulariodos align-self-center">
+        <!-- buscador -->
+        <div class="align-self-center">
             <form action="">
-                <!-- <input class="buscar" type="text" placeholder="Buscar" class="align-self-center" style="height: 35px;"> -->
                 <div id="search-container">
                     <div class="nebula"></div>
                     <div class="starfield"></div>
+                    <!-- <div class="cosmic-dust"></div>
                     <div class="cosmic-dust"></div>
-                    <div class="cosmic-dust"></div>
-                    <div class="cosmic-dust"></div>
+                    <div class="cosmic-dust"></div> -->
                   
                     <div class="stardust"></div>
-                  
                     <div class="cosmic-ring"></div>
                   
                     <div id="main">
@@ -69,7 +68,7 @@
                           <circle r="8" cy="11" cx="11"></circle>
                           <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
                           <defs>
-                            <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
+                            <linearGradient gradientTransform="rotate(45)">
                               <stop stop-color="#a9c7ff" offset="0%"></stop>
                               <stop stop-color="#6e8cff" offset="100%"></stop>
                             </linearGradient>
@@ -80,12 +79,14 @@
                   </div>                      
             </form>
         </div>
-        <div class="carro">
-            <img src="imagenes/carrito.png" id="carro" alt="Foto carrito" class="float-end" style=" height: 61px; margin-top: 20px; margin-left: 8px;">
+        <!-- carrito -->
+        <div>
+            <img src="imagenes/carrito.png" alt="Foto carrito" class="float-end" style=" height: 61px; margin-top: 20px; margin-left: 8px;">
         </div>
     </header>  
     <main>
-        <nav class="menu">
+        <!-- barra de navegacion -->
+        <nav>
             <ul>
                 <li class="linea"><a href="https://flob.vercel.app/">Inicio</a></li>
                 <li class="linea"><a href="pages/compras.html">Comprar</a></li>
@@ -94,28 +95,31 @@
                 <li class="linea"><a href="pages/cartanavideña.html">Carta navideña</a></li>
             </ul>
         </nav>
+        <!-- carrusel de imagenes -->
         <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item active">
-                <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item active">
-                <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
-              </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item active">
+              <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item active">
+              <img src="imagenes/proximamente.jpg" class="d-block w-75 mx-auto" alt="...">
+            </div>
           </div>
-          <!-- <div class="primeraCarta" style="display: flex;"> -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        <!-- Cards de presentacion de contenido -->
+        <!-- plantillas personalizadas -->
         <div class="row justify-content-center  justify-content-around mx-auto p-4 py-4 my-5" style="width: 60rem; display: flex; border-radius: 10px; background-color: rgb(41, 36, 58); color: white;">
             <div class="col-6  align-items-start my-auto d-inline-block p-0">
                 <img src="imagenes/firstNote.png" style="width: 50px; height: 50px; margin-left:5.8em;" class="card-img-top align-self-start" alt="nothing one">
@@ -126,7 +130,7 @@
                 <img src="imagenes/plantillas_personalizadas.jpg" style="width: 472px; height: 300px;" class="card-img-top " alt="nothing one">
             </div>
         </div>
-          <!-- </div> -->
+        <!-- digitalizacion de documentos -->
         <div class="row justify-content-center justify-content-around shadow-lg mx-auto p-4 py-4 my-5" style="width: 62rem; border-radius: 10px; background-color: white;">
             <div class="col-6 d-inline-block p-0">
                 <img src="imagenes/digitalización_documentos.jpg" style="width: 472px; height: 300px;" class="card-img-top " alt="nothing one">
@@ -137,6 +141,7 @@
                 <p class="card-text align-self-start" style="margin-left: 5.9em"> Pasar ideas de físico a virtual: Curriculums, folletos, invitaciones, documentos y presentaciones personalizadas, a contenido virtual.</p>
             </div>
         </div> 
+        <!-- diseños para impresion 3d -->
         <div class="row justify-content-center justify-content-around shadow-lg mx-auto p-4 py-4 mt-5" style="width: 62rem; border-radius: 10px; background-color: white;">
             <div class="col-6  align-items-start my-auto d-inline-block">
                 <img src="imagenes/firstNote.png" style="width: 50px; height: 50px; margin-left:5.8em;" class="card-img-top align-self-start" alt="nothing one">
@@ -147,6 +152,7 @@
                 <img src="imagenes/digitalizaciòn_impresión.jpg" style="width: 472px; height: 300px;" class="card-img-top " alt="nothing one">
             </div>
         </div>
+        <!-- titulo destacados -->
         <div id="destacados" class="py-4" style="margin:3em 0;">
             <h4>¿YA VISTE NUESTRO CATÁLOGO? ENTÉRATE DE LAS NOVEDADES A PRECIOS EXCLUSIVOS!!</h4>
         </div>
@@ -176,7 +182,7 @@
             <img class="col-3 p-0" src="./imagenes/producto_sin_foto.png">
         </div>
         <div class="mx-auto my-5 " style="width: fit-content;">
-            <button class="btn">¡Quiero ver más!</button>
+            <button class="btn-primary">¡Quiero ver más!</button>
         </div>
         <div class="row justify-content-center pt-4" style="margin: 0;">
             <div class="card col-3 shadow-md mx-2">
@@ -196,7 +202,7 @@
             <b><h1>"Por un diseño Mejor"</h1></b>
         </div>
     </main>
-    <nav class="menu2" style="color: rgba(128, 128, 128, 0.267);">
+    <nav style="color: rgba(128, 128, 128, 0.267);">
         <ul>
             <li class="linea"><a href="#">Inicio</a></li>
             <li class="linea"><a href="#">Comprar</a></li>
@@ -204,9 +210,9 @@
             <li class="linea"><a href="#">Contacto</a></li>
         </ul>
     </nav>
-    <footer class="text-center my-4" id="footer" style="color: gray;">
-        <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
-        <p class="data1">Terms of Service   •   Privacy Policy</p>
+    <footer class="text-center my-4" style="color: gray;">
+        <p>&copy; 2024 Flob. Todos los derechos reservados.</p>
+        <p>Terms of Service   •   Privacy Policy</p>
     </footer>
     <div class="text-center">
         <img src="imagenes/logo_flob.png" width="120px">
