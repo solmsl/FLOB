@@ -95,7 +95,8 @@ aside {
 }
 aside #letrero {
   margin-top: 10px;
-  padding: 7px;
+  padding-top: 18px;
+  padding-bottom: 15px;
   font-family: "diseño mejor";
   font-size: 45px;
   color: white;
@@ -104,6 +105,7 @@ aside #letrero {
 
 @media (max-width: 667px) {
   #letrero {
+    padding: 7px;
     font-size: 1rem;
   }
 }
