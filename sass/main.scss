@@ -1,23 +1,16 @@
 /* BASE */
-@use "base";
+@use "./base";
 
 /* GRID SYSTEM */
 @use "grid/mixins";
 
 /* COMPONENTS */
-@use "components/barra";
 @use "components/buttons";
-@use "components/copy";
-@use "components/corraousel";
 @use "components/fonts";
-@use "components/footer";
-@use "components/formulario";
-@use "components/input";
 @use "components/letrero";
 @use "components/nav";
-@use "components/skelleton"; 
+@use "components/footer";
 
 /* PAGES */
-@use "pages/index";
-@use "pages/compras";
-@use "pages/quienessomos";
+@use "pages/inicio";
+@use "pages/cartanavidena";

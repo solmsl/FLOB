@@ -1,3 +1,4 @@
+// LETRERO
 @use "fonts";
 
 aside{
@@ -5,13 +6,11 @@ aside{
 
     #letrero{
         margin-top: 70px;
+        padding-top: 18px;
+        padding-bottom: 15px;
         font-family: 'diseño mejor';
-        font-size: 60px;
+        font-size: 45px;
         color: white;;
         text-align: center;
     }
-}
-#letrero{
-    background-color: rgb(153, 150, 150);
-    text-align: center;
 }
