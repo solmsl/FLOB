@@ -16,15 +16,15 @@ body {
 /* COMPONENTS */
 @font-face {
   font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+  src: url("/FLOB/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
+  src: url("/FLOB/fonts/Yellowtail/Yellowtail-Regular.ttf");
 }
 @font-face {
   font-family: "prueba";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+  src: url("/FLOB/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
 }
 .boton {
   justify-content: center;
@@ -201,9 +201,6 @@ footer {
   transform: translateY(-3%);
 }
 
-.links {
-  margin-top: 20px;
-}
 .links p {
   color: white;
   padding: 3px;
@@ -212,19 +209,8 @@ footer {
 
 .img-fluid {
   float: left;
-  margin-left: 30px;
-  padding-right: 40px;
 }
 
-@media (max-width: 767px) { /* Estilos para dispositivos móviles */
-  .inicio {
-    padding: 20px; /* Agrega un poco de espacio al contenedor */
-  }
-  .links p {
-    text-align: center;
-    font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
-  }
-}
 h1, h3, label, p {
   color: white;
 }
