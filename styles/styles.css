@@ -362,7 +362,8 @@ form .page .btns button.next {
 }
 
 #personalizar {
-  margin-left: 10em;
+  text-align: center;
+  justify-content: center;
 }
 
 .pasotres {
