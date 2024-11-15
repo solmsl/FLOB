@@ -107,6 +107,7 @@ aside #letrero {
   #letrero {
     padding: 7px;
     font-size: 1rem;
+    text-align: center;
   }
 }
 a {
