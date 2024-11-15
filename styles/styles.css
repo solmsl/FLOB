@@ -209,8 +209,18 @@ footer {
 
 .img-fluid {
   float: left;
+  padding: 20px;
 }
 
+@media (max-width: 767px) { /* Estilos para dispositivos móviles */
+  .inicio {
+    padding: 20px; /* Agrega un poco de espacio al contenedor */
+  }
+  .links p {
+    text-align: center;
+    font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+  }
+}
 h1, h3, label, p {
   color: white;
 }
